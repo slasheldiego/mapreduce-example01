@@ -10,7 +10,6 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-import com.cloudera.sa.examples.crunch.JoinFilterExampleCrunch;
 
 public class JoinFilterExampleMRJob implements Tool {
   public static final String FOO_TABLE_CONF = "custom.foo.table.file";
